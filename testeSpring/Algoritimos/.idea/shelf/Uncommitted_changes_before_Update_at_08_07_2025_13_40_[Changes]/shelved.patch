@@ -1,0 +1,104 @@
+Index: .idea/vcs.xml
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+deleted file mode 100644
+--- a/.idea/vcs.xml	(revision a843ff9ac3c3ed31b16399c77aabeb33b0268d29)
++++ /dev/null	(revision a843ff9ac3c3ed31b16399c77aabeb33b0268d29)
+@@ -1,6 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="VcsDirectoryMappings">
+-    <mapping directory="$PROJECT_DIR$/../.." vcs="Git" />
+-  </component>
+-</project>
+\ No newline at end of file
+Index: .idea/modules.xml
+===================================================================
+diff --git a/.idea/modules.xml b/.idea/modules.xml
+deleted file mode 100644
+--- a/.idea/modules.xml	(revision a843ff9ac3c3ed31b16399c77aabeb33b0268d29)
++++ /dev/null	(revision a843ff9ac3c3ed31b16399c77aabeb33b0268d29)
+@@ -1,8 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="ProjectModuleManager">
+-    <modules>
+-      <module fileurl="file://$PROJECT_DIR$/Algoritimos.iml" filepath="$PROJECT_DIR$/Algoritimos.iml" />
+-    </modules>
+-  </component>
+-</project>
+\ No newline at end of file
+Index: .idea/misc.xml
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+deleted file mode 100644
+--- a/.idea/misc.xml	(revision a843ff9ac3c3ed31b16399c77aabeb33b0268d29)
++++ /dev/null	(revision a843ff9ac3c3ed31b16399c77aabeb33b0268d29)
+@@ -1,6 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="ProjectRootManager" version="2" languageLevel="JDK_23" default="true" project-jdk-name="23" project-jdk-type="JavaSDK">
+-    <output url="file://$PROJECT_DIR$/out" />
+-  </component>
+-</project>
+\ No newline at end of file
+Index: .idea/workspace.xml
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+deleted file mode 100644
+--- a/.idea/workspace.xml	(revision a843ff9ac3c3ed31b16399c77aabeb33b0268d29)
++++ /dev/null	(revision a843ff9ac3c3ed31b16399c77aabeb33b0268d29)
+@@ -1,52 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="ChangeListManager">
+-    <list default="true" id="c05cabf4-891a-43fd-994b-dd85d37e81e2" name="Changes" comment="" />
+-    <option name="SHOW_DIALOG" value="false" />
+-    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+-    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+-    <option name="LAST_RESOLUTION" value="IGNORE" />
+-  </component>
+-  <component name="Git.Settings">
+-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+-  </component>
+-  <component name="GitHubPullRequestSearchHistory">{
+-  &quot;lastFilter&quot;: {
+-    &quot;state&quot;: &quot;OPEN&quot;,
+-    &quot;assignee&quot;: &quot;MarcosPaulo-web&quot;
+-  }
+-}</component>
+-  <component name="GithubPullRequestsUISettings">{
+-  &quot;selectedUrlAndAccountId&quot;: {
+-    &quot;url&quot;: &quot;https://github.com/MarcosPaulo-web/matematica.git&quot;,
+-    &quot;accountId&quot;: &quot;c5ba9648-7172-4a84-bf72-fab3563d3702&quot;
+-  }
+-}</component>
+-  <component name="ProjectColorInfo">{
+-  &quot;associatedIndex&quot;: 3
+-}</component>
+-  <component name="ProjectId" id="2zHUy0QDc9DV2Bnh5xnuFinmbrY" />
+-  <component name="ProjectViewState">
+-    <option name="hideEmptyMiddlePackages" value="true" />
+-    <option name="showLibraryContents" value="true" />
+-  </component>
+-  <component name="PropertiesComponent">{
+-  &quot;keyToString&quot;: {
+-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+-    &quot;last_opened_file_path&quot;: &quot;C:/Users/marcos_p_medeiros/IdeaProjects/matematica/testeSpring/Algoritimos&quot;
+-  }
+-}</component>
+-  <component name="TaskManager">
+-    <task active="true" id="Default" summary="Default task">
+-      <changelist id="c05cabf4-891a-43fd-994b-dd85d37e81e2" name="Changes" comment="" />
+-      <created>1751387742174</created>
+-      <option name="number" value="Default" />
+-      <option name="presentableId" value="Default" />
+-      <updated>1751387742174</updated>
+-    </task>
+-    <servers />
+-  </component>
+-</project>
+\ No newline at end of file
