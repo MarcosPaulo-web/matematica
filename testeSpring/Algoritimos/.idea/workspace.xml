@@ -4,43 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c05cabf4-891a-43fd-994b-dd85d37e81e2" name="Changes" comment="att array e buble short">
-      <change afterPath="$PROJECT_DIR$/src/ultimaProva/Livro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ultimaProva/PrincipalLivro.java" afterDir="false" />
+    <list default="true" id="c05cabf4-891a-43fd-994b-dd85d37e81e2" name="Changes" comment="att array">
+      <change afterPath="$PROJECT_DIR$/src/ordenacao/ExemploBubleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/programacaoOrientadaObjeto/controller/ListaAluno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/programacaoOrientadaObjeto/model/Aluno.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritimos/Algoritimos.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritimos/Matriz/Exemplo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritimos/Recursividade/Fatorial.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritimos/Tarefas/Atividade6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritimos/Tarefas/Exercicio1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritimos/Tarefas/Exercicio2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritimos/Tarefas/Exercicio2Professor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritimos/Tarefas/Exercicio3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritimos/Tarefas/Exercicio5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritimos/arrayList/Exemplo3Vetores.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritimos/arrayList/Exemplo6Professor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritimos/arrayList/Exemplo6Vetores.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritimos/atividades_revisão_prova/Categoria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritimos/atividades_revisão_prova/ConversorMoedas.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritimos/atividades_revisão_prova/Temperatura.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritimos/atividades_revisão_prova/ValidadorSenha.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritimos/ordenacao/ExemploBubleSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritimos/programacaoOrientadaObjeto/controller/CadastroTimes.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritimos/programacaoOrientadaObjeto/controller/ListaAluno.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritimos/programacaoOrientadaObjeto/controller/MenuCarros.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritimos/programacaoOrientadaObjeto/controller/MenuCompras.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritimos/programacaoOrientadaObjeto/model/Aluno.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritimos/programacaoOrientadaObjeto/model/Carro.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritimos/programacaoOrientadaObjeto/model/ListaCompras.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritimos/programacaoOrientadaObjeto/model/Time.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritimos/prova/Questao1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritimos/prova/Questao2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritimos/prova/Questao3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritimos/prova/Questao4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritimos/prova/Questao5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritimos/vetores/Exemplo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritimos/vetores/Exemplo2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritimos/vetores/Exemplo3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programacaoOrientadaObjeto/controller/MenuCompras.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/programacaoOrientadaObjeto/controller/MenuCompras.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programacaoOrientadaObjeto/model/ListaCompras.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/programacaoOrientadaObjeto/model/ListaCompras.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +54,6 @@
     "Application.ListaAluno.executor": "Run",
     "Application.MenuCarros.executor": "Run",
     "Application.MenuCompras.executor": "Run",
-    "Application.PrincipalLivro.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -118,29 +87,12 @@
       <option name="project" value="LOCAL" />
       <updated>1751675934287</updated>
     </task>
-    <task id="LOCAL-00003" summary="att array e buble short">
-      <option name="closed" value="true" />
-      <created>1751936757358</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1751936757358</updated>
-    </task>
-    <task id="LOCAL-00004" summary="att array e buble short">
-      <option name="closed" value="true" />
-      <created>1751936772930</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1751936772930</updated>
-    </task>
-    <option name="localTasksCounter" value="5" />
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="poo e outras coisas" />
     <MESSAGE value="att array" />
-    <MESSAGE value="att array e buble short" />
-    <option name="LAST_COMMIT_MESSAGE" value="att array e buble short" />
+    <option name="LAST_COMMIT_MESSAGE" value="att array" />
   </component>
 </project>
