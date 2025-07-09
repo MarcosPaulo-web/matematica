@@ -4,7 +4,84 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ded5bcf0-58f8-4e19-afbe-e4abea1df665" name="Changes" comment="aula de trier" />
+    <list default="true" id="d31f29a5-58d9-4b23-a4bd-26e7d70ac58d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Trier/Aula07_08/LogicaProgramacao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Trier/Aula07_08/vetor/Atividade.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Trier/Aula07_08/vetor/exemploVetores.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Trier/Aula07_08/vetor/vetorMes.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Trier/aula07_01/Atividade1/Numero5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Trier/aula07_01/Atividade1/numero2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Trier/aula07_01/Atividade1/numero3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Trier/aula07_01/HelloWord.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Trier/aula07_02/Banco.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Trier/aula07_02/JogoAdivinha.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Trier/aula07_02/estruturaRepeticao/ContagemRegressiva.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Trier/aula07_02/estruturaRepeticao/Tabuada.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Trier/primeiraAula/Atividade1/Numero4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Aula07_08/LogicaProgramacao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Aula07_08/vetor/Atividade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Aula07_08/vetor/exemploVetores.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Aula07_08/vetor/vetorMes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aula07_09/ControleProducao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aula07_09/ControleVendasSemanais.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aula07_09/MicroOnibus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aula07_09/NotasAlunos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aula07_09/testeNumRandom/NumeroAleatorio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algoritimos/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Algoritimos/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algoritimos/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Algoritimos/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algoritimos/.idea/shelf/Uncommitted_changes_before_Update_at_08_07_2025_13_39__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algoritimos/.idea/shelf/Uncommitted_changes_before_Update_at_08_07_2025_13_40_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algoritimos/.idea/shelf/Uncommitted_changes_before_Update_at_08_07_2025_13_40__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algoritimos/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Algoritimos/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algoritimos/out/production/Algoritimos/Algoritimos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Algoritimos/.idea/Algoritimos.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algoritimos/out/production/Algoritimos/Matriz/Exemplo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algoritimos/out/production/Algoritimos/Recursividade/Fatorial.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algoritimos/out/production/Algoritimos/Tarefas/Atividade6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algoritimos/out/production/Algoritimos/Tarefas/Exercicio1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algoritimos/out/production/Algoritimos/Tarefas/Exercicio2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algoritimos/out/production/Algoritimos/Tarefas/Exercicio2Professor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algoritimos/out/production/Algoritimos/Tarefas/Exercicio3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algoritimos/out/production/Algoritimos/Tarefas/Exercicio5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algoritimos/out/production/Algoritimos/arrayList/Exemplo3Vetores.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algoritimos/out/production/Algoritimos/arrayList/Exemplo6Professor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algoritimos/out/production/Algoritimos/arrayList/Exemplo6Vetores.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algoritimos/out/production/Algoritimos/atividades_revisão_prova/Categoria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algoritimos/out/production/Algoritimos/atividades_revisão_prova/ConversorMoedas.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algoritimos/out/production/Algoritimos/atividades_revisão_prova/Temperatura.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algoritimos/out/production/Algoritimos/atividades_revisão_prova/ValidadorSenha.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algoritimos/out/production/Algoritimos/ordenacao/ExemploBubleSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algoritimos/out/production/Algoritimos/programacaoOrientadaObjeto/controller/CadastroTimes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algoritimos/out/production/Algoritimos/programacaoOrientadaObjeto/controller/ListaAluno.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algoritimos/out/production/Algoritimos/programacaoOrientadaObjeto/controller/MenuCarros.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algoritimos/out/production/Algoritimos/programacaoOrientadaObjeto/controller/MenuCompras.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algoritimos/out/production/Algoritimos/programacaoOrientadaObjeto/model/Aluno.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algoritimos/out/production/Algoritimos/programacaoOrientadaObjeto/model/Carro.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algoritimos/out/production/Algoritimos/programacaoOrientadaObjeto/model/ListaCompras.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algoritimos/out/production/Algoritimos/programacaoOrientadaObjeto/model/Time.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algoritimos/out/production/Algoritimos/prova/Questao1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algoritimos/out/production/Algoritimos/prova/Questao2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algoritimos/out/production/Algoritimos/prova/Questao3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algoritimos/out/production/Algoritimos/prova/Questao4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algoritimos/out/production/Algoritimos/prova/Questao5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algoritimos/out/production/Algoritimos/vetores/Exemplo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algoritimos/out/production/Algoritimos/vetores/Exemplo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algoritimos/out/production/Algoritimos/vetores/Exemplo3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TrierMaven/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TrierMaven/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TrierMaven/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TrierMaven/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TrierMaven/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TrierMaven/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TrierMaven/TrierMaven.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TrierMaven/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TrierMaven/src/main/java/org/example/Aula1/TipoDados.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TrierMaven/src/main/java/org/example/Main.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,89 +110,41 @@
   }
 }</component>
   <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 8
 }</component>
-  <component name="ProjectId" id="2zHcM10bXCT3zsobB0JVruUwhVJ" />
+  <component name="ProjectId" id="2zbK92RwMNyP2SQVWQ1xDnMOTpT" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Banco.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ContagemRegressiva.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HelloWord.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Numero4.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Numero5.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Tabuada.executor&quot;: &quot;Run&quot;,
-    &quot;Application.jogoAdivinha.executor&quot;: &quot;Run&quot;,
-    &quot;Application.numero2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.numero3.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/marcos_p_medeiros/IdeaProjects/matematica/testeSpring/Trier/src/Main.java&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Atividade.executor": "Run",
+    "Application.ControleProducao.executor": "Run",
+    "Application.ControleVendasSemanais.executor": "Run",
+    "Application.LogicaProgramacao.executor": "Run",
+    "Application.MicroOnibus.executor": "Run",
+    "Application.NotasAlunos.executor": "Run",
+    "Application.NumeroAleatorio.executor": "Run",
+    "Application.exemploVetores.executor": "Run",
+    "Application.vetorMes.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "settings.editor.selected.configurable": "editing.templates"
   }
-}</component>
+}]]></component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ded5bcf0-58f8-4e19-afbe-e4abea1df665" name="Changes" comment="" />
-      <created>1751391387485</created>
+      <changelist id="d31f29a5-58d9-4b23-a4bd-26e7d70ac58d" name="Changes" comment="" />
+      <created>1751994178752</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1751391387485</updated>
+      <updated>1751994178752</updated>
     </task>
-    <task id="LOCAL-00001" summary="Projeto Trier Ativado">
-      <option name="closed" value="true" />
-      <created>1751391446083</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1751391446083</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Apaguei o main">
-      <option name="closed" value="true" />
-      <created>1751393228516</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1751393228516</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Atividade de matematica">
-      <option name="closed" value="true" />
-      <created>1751401823895</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1751401823895</updated>
-    </task>
-    <task id="LOCAL-00004" summary="aula de trier">
-      <option name="closed" value="true" />
-      <created>1751992640214</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1751992640214</updated>
-    </task>
-    <task id="LOCAL-00005" summary="aula de trier">
-      <option name="closed" value="true" />
-      <created>1751992864571</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1751992864571</updated>
-    </task>
-    <option name="localTasksCounter" value="6" />
     <servers />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Projeto Trier Ativado" />
-    <MESSAGE value="Apaguei o main" />
-    <MESSAGE value="Atividade de matematica" />
-    <MESSAGE value="aula de trier" />
-    <option name="LAST_COMMIT_MESSAGE" value="aula de trier" />
   </component>
 </project>
