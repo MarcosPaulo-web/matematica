@@ -4,46 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d31f29a5-58d9-4b23-a4bd-26e7d70ac58d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Prova/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Prova/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Prova/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Prova/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Prova/src/main/java/org/example/Questao1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Prova/src/main/java/org/example/Questao2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Prova/src/main/java/org/example/Questao3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Prova/src/main/java/org/example/Questao4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aula07_15/AnalisesNotasFinais.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aula07_15/AvaliacaoFuncionarios.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aula07_15/CadastroProdutoCodigo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aula07_15/CaixaSuperMercado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aula07_15/CalcConsumoEnergia.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aula07_15/ControleEstoqueProduto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aula07_15/ControleVendasDiarias.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aula07_15/PainelVotacao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aula07_15/RegistroTemperaturaSemanal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aula07_15/SistemaFrequenciaEscolar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aula07_22/ArrayListExemplo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aula07_22/AtividadeArray.java" afterDir="false" />
+    <list default="true" id="d31f29a5-58d9-4b23-a4bd-26e7d70ac58d" name="Changes" comment="att dia 22/7 antes do intervalo">
+      <change afterPath="$PROJECT_DIR$/src/aula07_22/AtividadeArrayAlunos.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Trier/Aula07_08/LogicaProgramacao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Trier/Aula07_08/vetor/Atividade.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Trier/Aula07_08/vetor/exemploVetores.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Trier/Aula07_08/vetor/vetorMes.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Trier/aula07_01/Atividade1/Numero5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Trier/aula07_01/Atividade1/numero2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Trier/aula07_01/Atividade1/numero3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Trier/aula07_01/HelloWord.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Trier/aula07_02/Banco.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Trier/aula07_02/JogoAdivinha.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Trier/aula07_02/estruturaRepeticao/ContagemRegressiva.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Trier/aula07_02/estruturaRepeticao/Tabuada.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Trier/aula07_09/ControleProducao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Trier/aula07_09/ControleVendasSemanais.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Trier/aula07_09/MicroOnibus.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Trier/aula07_09/NotasAlunos.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Trier/aula07_09/testeNumRandom/NumeroAleatorio.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Trier/primeiraAula/Atividade1/Numero4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula07_22/AtividadeArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aula07_22/AtividadeArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,6 +54,7 @@
     "Application.ArrayListExemplo.executor": "Run",
     "Application.Atividade.executor": "Run",
     "Application.AtividadeArray.executor": "Run",
+    "Application.AtividadeArrayAlunos.executor": "Run",
     "Application.AvaliacaoFuncionarios.executor": "Run",
     "Application.CadastroProdutoCodigo.executor": "Run",
     "Application.CaixaSuperMercado.executor": "Run",
@@ -126,6 +91,19 @@
       <option name="presentableId" value="Default" />
       <updated>1751994178752</updated>
     </task>
+    <task id="LOCAL-00001" summary="att dia 22/7 antes do intervalo">
+      <option name="closed" value="true" />
+      <created>1753209437526</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1753209437526</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="att dia 22/7 antes do intervalo" />
+    <option name="LAST_COMMIT_MESSAGE" value="att dia 22/7 antes do intervalo" />
   </component>
 </project>
