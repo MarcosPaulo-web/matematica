@@ -4,10 +4,43 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d31f29a5-58d9-4b23-a4bd-26e7d70ac58d" name="Changes" comment="att dia 22/7 antes do intervalo">
-      <change afterPath="$PROJECT_DIR$/src/aula07_22/AtividadeArrayAlunos.java" afterDir="false" />
+    <list default="true" id="d31f29a5-58d9-4b23-a4bd-26e7d70ac58d" name="Changes" comment="att dia 22/7 depois do intervalo">
+      <change afterPath="$PROJECT_DIR$/src/aula07_23/Carro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aula07_23/MainCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aula07_23/Pessoa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aula07_23/PessoasMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/aula07_22/AtividadeArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aula07_22/AtividadeArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Trier/Aula07_08/LogicaProgramacao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Trier/Aula07_08/vetor/Atividade.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Trier/Aula07_08/vetor/exemploVetores.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Trier/Aula07_08/vetor/vetorMes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Trier/aula07_01/Atividade1/Numero5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Trier/aula07_01/Atividade1/numero2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Trier/aula07_01/Atividade1/numero3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Trier/aula07_01/HelloWord.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Trier/aula07_02/Banco.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Trier/aula07_02/JogoAdivinha.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Trier/aula07_02/estruturaRepeticao/ContagemRegressiva.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Trier/aula07_02/estruturaRepeticao/Tabuada.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Trier/aula07_09/ControleProducao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Trier/aula07_09/ControleVendasSemanais.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Trier/aula07_09/MicroOnibus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Trier/aula07_09/NotasAlunos.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Trier/aula07_09/testeNumRandom/NumeroAleatorio.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Trier/aula07_15/AnalisesNotasFinais.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Trier/aula07_15/AvaliacaoFuncionarios.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Trier/aula07_15/CadastroProdutoCodigo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Trier/aula07_15/CaixaSuperMercado.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Trier/aula07_15/CalcConsumoEnergia.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Trier/aula07_15/ControleEstoqueProduto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Trier/aula07_15/ControleVendasDiarias.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Trier/aula07_15/PainelVotacao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Trier/aula07_15/RegistroTemperaturaSemanal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Trier/aula07_15/SistemaFrequenciaEscolar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Trier/aula07_22/ArrayListExemplo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Trier/aula07_22/AtividadeArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Trier/aula07_22/AtividadeArrayAlunos.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Trier/primeiraAula/Atividade1/Numero4.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,14 +97,17 @@
     "Application.ControleVendasDiarias.executor": "Run",
     "Application.ControleVendasSemanais.executor": "Run",
     "Application.LogicaProgramacao.executor": "Run",
+    "Application.MainCar.executor": "Run",
     "Application.MicroOnibus.executor": "Run",
     "Application.NotasAlunos.executor": "Run",
     "Application.NumeroAleatorio.executor": "Run",
     "Application.PainelVotacao.executor": "Run",
+    "Application.PessoasMain.executor": "Run",
     "Application.RegistroTemperaturaSemanal.executor": "Run",
     "Application.SistemaFrequenciaEscolar.executor": "Run",
     "Application.exemploVetores.executor": "Run",
     "Application.vetorMes.executor": "Run",
+    "JavaMethodFindUsagesOptions.isUsages": "false",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
@@ -99,11 +135,28 @@
       <option name="project" value="LOCAL" />
       <updated>1753209437526</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="att dia 22/7 depois do intervalo">
+      <option name="closed" value="true" />
+      <created>1753216133187</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1753216133187</updated>
+    </task>
+    <task id="LOCAL-00003" summary="att dia 22/7 depois do intervalo">
+      <option name="closed" value="true" />
+      <created>1753216148126</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1753216148126</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="att dia 22/7 antes do intervalo" />
-    <option name="LAST_COMMIT_MESSAGE" value="att dia 22/7 antes do intervalo" />
+    <MESSAGE value="att dia 22/7 depois do intervalo" />
+    <option name="LAST_COMMIT_MESSAGE" value="att dia 22/7 depois do intervalo" />
   </component>
 </project>
