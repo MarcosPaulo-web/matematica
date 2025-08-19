@@ -4,83 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d31f29a5-58d9-4b23-a4bd-26e7d70ac58d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Trier/Aula07_08/LogicaProgramacao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Trier/Aula07_08/vetor/Atividade.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Trier/Aula07_08/vetor/exemploVetores.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Trier/Aula07_08/vetor/vetorMes.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Trier/aula07_01/Atividade1/Numero5.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Trier/aula07_01/Atividade1/numero2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Trier/aula07_01/Atividade1/numero3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Trier/aula07_01/HelloWord.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Trier/aula07_02/Banco.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Trier/aula07_02/JogoAdivinha.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Trier/aula07_02/estruturaRepeticao/ContagemRegressiva.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Trier/aula07_02/estruturaRepeticao/Tabuada.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Trier/primeiraAula/Atividade1/Numero4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Aula07_08/LogicaProgramacao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Aula07_08/vetor/Atividade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Aula07_08/vetor/exemploVetores.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Aula07_08/vetor/vetorMes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aula07_09/ControleProducao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aula07_09/ControleVendasSemanais.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aula07_09/MicroOnibus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aula07_09/NotasAlunos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aula07_09/testeNumRandom/NumeroAleatorio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algoritimos/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Algoritimos/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algoritimos/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Algoritimos/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algoritimos/.idea/shelf/Uncommitted_changes_before_Update_at_08_07_2025_13_39__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algoritimos/.idea/shelf/Uncommitted_changes_before_Update_at_08_07_2025_13_40_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algoritimos/.idea/shelf/Uncommitted_changes_before_Update_at_08_07_2025_13_40__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algoritimos/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Algoritimos/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algoritimos/out/production/Algoritimos/Algoritimos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Algoritimos/.idea/Algoritimos.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algoritimos/out/production/Algoritimos/Matriz/Exemplo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algoritimos/out/production/Algoritimos/Recursividade/Fatorial.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algoritimos/out/production/Algoritimos/Tarefas/Atividade6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algoritimos/out/production/Algoritimos/Tarefas/Exercicio1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algoritimos/out/production/Algoritimos/Tarefas/Exercicio2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algoritimos/out/production/Algoritimos/Tarefas/Exercicio2Professor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algoritimos/out/production/Algoritimos/Tarefas/Exercicio3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algoritimos/out/production/Algoritimos/Tarefas/Exercicio5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algoritimos/out/production/Algoritimos/arrayList/Exemplo3Vetores.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algoritimos/out/production/Algoritimos/arrayList/Exemplo6Professor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algoritimos/out/production/Algoritimos/arrayList/Exemplo6Vetores.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algoritimos/out/production/Algoritimos/atividades_revisão_prova/Categoria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algoritimos/out/production/Algoritimos/atividades_revisão_prova/ConversorMoedas.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algoritimos/out/production/Algoritimos/atividades_revisão_prova/Temperatura.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algoritimos/out/production/Algoritimos/atividades_revisão_prova/ValidadorSenha.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algoritimos/out/production/Algoritimos/ordenacao/ExemploBubleSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algoritimos/out/production/Algoritimos/programacaoOrientadaObjeto/controller/CadastroTimes.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algoritimos/out/production/Algoritimos/programacaoOrientadaObjeto/controller/ListaAluno.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algoritimos/out/production/Algoritimos/programacaoOrientadaObjeto/controller/MenuCarros.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algoritimos/out/production/Algoritimos/programacaoOrientadaObjeto/controller/MenuCompras.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algoritimos/out/production/Algoritimos/programacaoOrientadaObjeto/model/Aluno.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algoritimos/out/production/Algoritimos/programacaoOrientadaObjeto/model/Carro.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algoritimos/out/production/Algoritimos/programacaoOrientadaObjeto/model/ListaCompras.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algoritimos/out/production/Algoritimos/programacaoOrientadaObjeto/model/Time.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algoritimos/out/production/Algoritimos/prova/Questao1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algoritimos/out/production/Algoritimos/prova/Questao2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algoritimos/out/production/Algoritimos/prova/Questao3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algoritimos/out/production/Algoritimos/prova/Questao4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algoritimos/out/production/Algoritimos/prova/Questao5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algoritimos/out/production/Algoritimos/vetores/Exemplo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algoritimos/out/production/Algoritimos/vetores/Exemplo2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algoritimos/out/production/Algoritimos/vetores/Exemplo3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+    <list default="true" id="d31f29a5-58d9-4b23-a4bd-26e7d70ac58d" name="Changes" comment="algoritmo">
+      <change afterPath="$PROJECT_DIR$/src/Aula08_19/banco/ContaBancaria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Aula08_19/banco/ContaBancariaMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Aula08_19/hamburguer/Hamburguer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Aula08_19/hamburguer/HamburguerMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Aula08_19/superMercado/Caixa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Aula08_19/superMercado/CaixaMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TrierMaven/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TrierMaven/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TrierMaven/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TrierMaven/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TrierMaven/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TrierMaven/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TrierMaven/TrierMaven.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TrierMaven/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TrierMaven/src/main/java/org/example/Aula1/TipoDados.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TrierMaven/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Trier/Aula07_08/LogicaProgramacao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Trier/Aula07_08/vetor/Atividade.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Trier/Aula07_08/vetor/exemploVetores.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Trier/Aula07_08/vetor/vetorMes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Trier/aula07_01/Atividade1/Numero5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Trier/aula07_01/Atividade1/numero2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Trier/aula07_01/Atividade1/numero3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Trier/aula07_01/HelloWord.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Trier/aula07_02/Banco.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Trier/aula07_02/JogoAdivinha.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Trier/aula07_02/estruturaRepeticao/ContagemRegressiva.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Trier/aula07_02/estruturaRepeticao/Tabuada.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Trier/aula07_09/ControleProducao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Trier/aula07_09/ControleVendasSemanais.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Trier/aula07_09/MicroOnibus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Trier/aula07_09/NotasAlunos.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Trier/aula07_09/testeNumRandom/NumeroAleatorio.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Trier/primeiraAula/Atividade1/Numero4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula07_09/testeNumRandom/NumeroAleatorio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aula07_09/testeNumRandom/NumeroAleatorio.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +56,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/MarcosPaulo-web/matematica.git&quot;,
-    &quot;accountId&quot;: &quot;c5ba9648-7172-4a84-bf72-fab3563d3702&quot;
+    &quot;accountId&quot;: &quot;c06719a2-d7ee-4e45-a15f-61d6f17f8976&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -121,8 +71,11 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Atividade.executor": "Run",
+    "Application.CaixaMain.executor": "Run",
+    "Application.ContaBancariaMain.executor": "Run",
     "Application.ControleProducao.executor": "Run",
     "Application.ControleVendasSemanais.executor": "Run",
+    "Application.HamburguerMain.executor": "Run",
     "Application.LogicaProgramacao.executor": "Run",
     "Application.MicroOnibus.executor": "Run",
     "Application.NotasAlunos.executor": "Run",
@@ -134,9 +87,11 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
     "settings.editor.selected.configurable": "editing.templates"
   }
 }]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="d31f29a5-58d9-4b23-a4bd-26e7d70ac58d" name="Changes" comment="" />
@@ -146,5 +101,9 @@
       <updated>1751994178752</updated>
     </task>
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="algoritmo" />
+    <option name="LAST_COMMIT_MESSAGE" value="algoritmo" />
   </component>
 </project>
