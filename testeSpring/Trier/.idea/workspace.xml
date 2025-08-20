@@ -4,34 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d31f29a5-58d9-4b23-a4bd-26e7d70ac58d" name="Changes" comment="POO da trier feita">
-      <change afterPath="$PROJECT_DIR$/src/aula08_20_heranca/animal/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aula08_20_heranca/animal/AnimalMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aula08_20_heranca/animal/Cachorro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aula08_20_heranca/animal/Gato.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aula08_20_heranca/animal/Jabuti.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aula08_20_heranca/atividades/conta/BancoMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aula08_20_heranca/atividades/conta/Cliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aula08_20_heranca/atividades/conta/Conta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aula08_20_heranca/atividades/conta/ContaCorrente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aula08_20_heranca/atividades/conta/ContaPoupanca.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aula08_20_heranca/veiculo/Carro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aula08_20_heranca/veiculo/Moto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aula08_20_heranca/veiculo/Veiculo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aula08_20_heranca/veiculo/VeiculoMain.java" afterDir="false" />
+    <list default="true" id="d31f29a5-58d9-4b23-a4bd-26e7d70ac58d" name="Changes" comment="banco meio feito, indo para o teste de conta">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Trier/Aula08_19/banco/ContaBancaria.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Trier/Aula08_19/banco/ContaBancaria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Trier/Aula08_19/banco/ContaBancariaMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Trier/Aula08_19/banco/ContaBancariaMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Trier/Aula08_19/hamburguer/Hamburguer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Trier/Aula08_19/hamburguer/Hamburguer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Trier/Aula08_19/hamburguer/HamburguerMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Trier/Aula08_19/hamburguer/HamburguerMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Trier/Aula08_19/superMercado/Caixa.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Trier/Aula08_19/superMercado/Caixa.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Trier/Aula08_19/superMercado/CaixaMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Trier/Aula08_19/superMercado/CaixaMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aula08_19/banco/ContaBancaria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aula08_19/banco/ContaBancaria.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aula08_19/banco/ContaBancariaMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aula08_19/banco/ContaBancariaMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aula08_19/hamburguer/Hamburguer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aula08_19/hamburguer/Hamburguer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aula08_19/hamburguer/HamburguerMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aula08_19/hamburguer/HamburguerMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aula08_19/superMercado/Caixa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aula08_19/superMercado/Caixa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aula08_19/superMercado/CaixaMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aula08_19/superMercado/CaixaMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula08_20_heranca/atividades/conta/BancoMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aula08_20_heranca/atividades/conta/BancoMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula08_20_heranca/atividades/conta/Conta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aula08_20_heranca/atividades/conta/Conta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula08_20_heranca/atividades/conta/ContaCorrente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aula08_20_heranca/atividades/conta/ContaCorrente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula08_20_heranca/atividades/conta/ContaPoupanca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aula08_20_heranca/atividades/conta/ContaPoupanca.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +25,11 @@
   </component>
   <component name="Git.Settings">
     <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/../.." value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -94,7 +77,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "Teste-para-array-unico",
     "kotlin-language-version-configured": "true",
     "settings.editor.selected.configurable": "editing.templates"
   }
@@ -124,12 +107,21 @@
       <option name="project" value="LOCAL" />
       <updated>1755634963666</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="banco meio feito, indo para o teste de conta">
+      <option name="closed" value="true" />
+      <created>1755719094441</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1755719094441</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="algoritmo" />
     <MESSAGE value="POO da trier feita" />
-    <option name="LAST_COMMIT_MESSAGE" value="POO da trier feita" />
+    <MESSAGE value="banco meio feito, indo para o teste de conta" />
+    <option name="LAST_COMMIT_MESSAGE" value="banco meio feito, indo para o teste de conta" />
   </component>
 </project>

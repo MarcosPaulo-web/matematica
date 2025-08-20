@@ -7,7 +7,7 @@ public class Conta {
     private int numeroConta;
     private double saldo;
     private String statusConta;
-    private ArrayList<String> historico;
+    private  ArrayList<String> historico;
 
     public Conta(Cliente cliente, int numeroConta, double saldo, String statusConta) {
         this.cliente = cliente;
@@ -56,12 +56,17 @@ public class Conta {
         if (valor <=0){
             System.err.println(" valor menor que zero");
         }else {
+            setHistorico("-----\nSaldo inicial : "+this.saldo+"\n " +
+                    "valor sacado : "+ valor +"\nsaldo final "+ (saldo - valor)+"\n");
+
             saldo -= valor;
         }
     }
 
     void depositar(double valor){
         if (valor >= 0){
+            setHistorico("-----\nSaldo inicial : "+this.saldo+"\n " +
+                    "valor depositado : "+ valor +"\nsaldo final "+ (saldo + valor)+"\n");
             saldo += valor;
             System.out.println("Valor depositado, novo saldo = "+this.saldo);
         }else {
