@@ -1,4 +1,4 @@
-package Aula08_19.banco;
+package aula08_19.banco;
 
 public class ContaBancaria {
     private String titular;

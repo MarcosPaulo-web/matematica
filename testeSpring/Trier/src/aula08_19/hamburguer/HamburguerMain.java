@@ -1,4 +1,4 @@
-package Aula08_19.hamburguer;
+package aula08_19.hamburguer;
 
 public class HamburguerMain {
     public static void main(String[] args) {

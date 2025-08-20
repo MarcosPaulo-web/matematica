@@ -1,4 +1,4 @@
-package Aula08_19.superMercado;
+package aula08_19.superMercado;
 
 public class CaixaMain {
     public static void main(String[] args) {

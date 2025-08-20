@@ -4,33 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d31f29a5-58d9-4b23-a4bd-26e7d70ac58d" name="Changes" comment="algoritmo">
-      <change afterPath="$PROJECT_DIR$/src/Aula08_19/banco/ContaBancaria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Aula08_19/banco/ContaBancariaMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Aula08_19/hamburguer/Hamburguer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Aula08_19/hamburguer/HamburguerMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Aula08_19/superMercado/Caixa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Aula08_19/superMercado/CaixaMain.java" afterDir="false" />
+    <list default="true" id="d31f29a5-58d9-4b23-a4bd-26e7d70ac58d" name="Changes" comment="POO da trier feita">
+      <change afterPath="$PROJECT_DIR$/src/aula08_20_heranca/animal/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aula08_20_heranca/animal/AnimalMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aula08_20_heranca/animal/Cachorro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aula08_20_heranca/animal/Gato.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aula08_20_heranca/animal/Jabuti.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aula08_20_heranca/atividades/conta/BancoMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aula08_20_heranca/atividades/conta/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aula08_20_heranca/atividades/conta/Conta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aula08_20_heranca/atividades/conta/ContaCorrente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aula08_20_heranca/atividades/conta/ContaPoupanca.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aula08_20_heranca/veiculo/Carro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aula08_20_heranca/veiculo/Moto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aula08_20_heranca/veiculo/Veiculo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aula08_20_heranca/veiculo/VeiculoMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Trier/Aula07_08/LogicaProgramacao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Trier/Aula07_08/vetor/Atividade.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Trier/Aula07_08/vetor/exemploVetores.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Trier/Aula07_08/vetor/vetorMes.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Trier/aula07_01/Atividade1/Numero5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Trier/aula07_01/Atividade1/numero2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Trier/aula07_01/Atividade1/numero3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Trier/aula07_01/HelloWord.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Trier/aula07_02/Banco.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Trier/aula07_02/JogoAdivinha.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Trier/aula07_02/estruturaRepeticao/ContagemRegressiva.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Trier/aula07_02/estruturaRepeticao/Tabuada.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Trier/aula07_09/ControleProducao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Trier/aula07_09/ControleVendasSemanais.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Trier/aula07_09/MicroOnibus.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Trier/aula07_09/NotasAlunos.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Trier/aula07_09/testeNumRandom/NumeroAleatorio.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Trier/primeiraAula/Atividade1/Numero4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/aula07_09/testeNumRandom/NumeroAleatorio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aula07_09/testeNumRandom/NumeroAleatorio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Trier/Aula08_19/banco/ContaBancaria.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Trier/Aula08_19/banco/ContaBancaria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Trier/Aula08_19/banco/ContaBancariaMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Trier/Aula08_19/banco/ContaBancariaMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Trier/Aula08_19/hamburguer/Hamburguer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Trier/Aula08_19/hamburguer/Hamburguer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Trier/Aula08_19/hamburguer/HamburguerMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Trier/Aula08_19/hamburguer/HamburguerMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Trier/Aula08_19/superMercado/Caixa.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Trier/Aula08_19/superMercado/Caixa.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Trier/Aula08_19/superMercado/CaixaMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Trier/Aula08_19/superMercado/CaixaMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aula08_19/banco/ContaBancaria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aula08_19/banco/ContaBancaria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aula08_19/banco/ContaBancariaMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aula08_19/banco/ContaBancariaMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aula08_19/hamburguer/Hamburguer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aula08_19/hamburguer/Hamburguer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aula08_19/hamburguer/HamburguerMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aula08_19/hamburguer/HamburguerMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aula08_19/superMercado/Caixa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aula08_19/superMercado/Caixa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aula08_19/superMercado/CaixaMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aula08_19/superMercado/CaixaMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +46,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -64,13 +66,18 @@
   &quot;associatedIndex&quot;: 8
 }</component>
   <component name="ProjectId" id="2zbK92RwMNyP2SQVWQ1xDnMOTpT" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.AnimalMain.executor": "Run",
     "Application.Atividade.executor": "Run",
+    "Application.BancoMain.executor": "Run",
     "Application.CaixaMain.executor": "Run",
     "Application.ContaBancariaMain.executor": "Run",
     "Application.ControleProducao.executor": "Run",
@@ -80,6 +87,7 @@
     "Application.MicroOnibus.executor": "Run",
     "Application.NotasAlunos.executor": "Run",
     "Application.NumeroAleatorio.executor": "Run",
+    "Application.VeiculoMain.executor": "Run",
     "Application.exemploVetores.executor": "Run",
     "Application.vetorMes.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
@@ -100,10 +108,28 @@
       <option name="presentableId" value="Default" />
       <updated>1751994178752</updated>
     </task>
+    <task id="LOCAL-00001" summary="POO da trier feita">
+      <option name="closed" value="true" />
+      <created>1755634928712</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1755634928712</updated>
+    </task>
+    <task id="LOCAL-00002" summary="POO da trier feita">
+      <option name="closed" value="true" />
+      <created>1755634963666</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1755634963666</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="algoritmo" />
-    <option name="LAST_COMMIT_MESSAGE" value="algoritmo" />
+    <MESSAGE value="POO da trier feita" />
+    <option name="LAST_COMMIT_MESSAGE" value="POO da trier feita" />
   </component>
 </project>
