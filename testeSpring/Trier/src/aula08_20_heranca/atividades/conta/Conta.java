@@ -76,7 +76,7 @@ public class Conta {
         } else if ((saldo - valor) >= -200) {
             saldo -= valor;
         } else {
-            System.err.println("Saldo não alterado");
+            System.err.println("Valor maior que o  limite de crédito");
         }
     }
 

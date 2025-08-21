@@ -16,7 +16,7 @@ public class BancoMain {
 
         do {
             op = getInt("\n1 - Criar cliente\n2 - Depositar\n3 - Sacar\n4 - Transferir saldo para outra conta" +
-                    "\n5 - ver saldo\n6 - ver extrato da conta\n7 - mostrar conta\n8 - rendimento\n9 - Simular 1 mes afrente para bloqueio\n0 - sair");
+                    "\n5 - Ver saldo\n6 - Ver extrato da conta\n7 - Mostrar conta\n8 - Rendimento\n9 - Simular 1 mes afrente para bloqueio\n0 - Sair");
             switch (op) {
                 case 1:
                     criarNovaConta(criarCliente());
@@ -47,24 +47,29 @@ public class BancoMain {
                 case 9:
                     saldoNegativo();
                     break;
+                case 0:
+                    System.out.println("Programa encerrado... ");
+                    break;
+                default:
+                    System.err.println("Informe um numero de 0 a 9 ...");
             }
 
         } while (op != 0);
     }
 
-    private static int getIndexConta(String txt){
+    private static int getIndexConta(String txt) {
 
         boolean contaExist = false;
-      int totalConta=  contas.size();
-       int idConta;
+        int totalConta = contas.size();
+        int idConta;
         do {
-             idConta = getInt(txt);
-          if (idConta <= totalConta && idConta>=0){
-              contaExist = true;
-          }else {
-              System.err.println("Esta conta não existe");
-          }
-       }while (!contaExist);
+            idConta = getInt(txt);
+            if (idConta <= totalConta && idConta >= 0) {
+                contaExist = true;
+            } else {
+                System.err.println("Esta conta não existe");
+            }
+        } while (!contaExist);
         return idConta;
     }
 
@@ -94,12 +99,12 @@ public class BancoMain {
         double valorSacado = getDouble("Qual o valor que deseja sacar ? ");
         if (valorSacado >= 0) {
             remetente.setHistorico("-----\nSaldo inicial : " + remetente.getSaldo() + "\n " +
-                    "valor sacado : " + valorSacado + "\nsaldo final " + (remetente.getSaldo() - valorSacado) + "\n");
+                    "Valor sacado : " + valorSacado + "\nSaldo final " + (remetente.getSaldo() - valorSacado) + "\n");
             remetente.sacar(valorSacado);
 
             destinatario.depositar(valorSacado);
-            destinatario.setHistorico("-----\nSaldo inicial : " + destinatario.getSaldo() + "\n " +
-                    "valor depositado : " + valorSacado + "\nsaldo final " + (destinatario.getSaldo() + valorSacado) + "\n");
+            destinatario.setHistorico("-----\nSaldo inicial :" + destinatario.getSaldo() + "\n" +
+                    "Valor depositado : " + valorSacado + "\nSaldo final :" + (destinatario.getSaldo() + valorSacado) + "\n");
             destinatario.depositar(valorSacado);
         } else {
             System.err.println("O valor inserido não pode ser transferido por ser menor que 0 ou maior que ");
@@ -109,10 +114,10 @@ public class BancoMain {
     }
 
     private static void sacar() {
-        Conta contaCliente = contas.get(getInt("Qual o numero da conta : "));
-        double valor = getDouble("Qual valor deseja sacar : ");
-        contaCliente.setHistorico("-----\nSaldo inicial : " + contaCliente.getSaldo() + "\n " +
-                "valor sacado : " + valor + "\nsaldo final " + (contaCliente.getSaldo() - valor) + "\n");
+        Conta contaCliente = contas.get(getIndexConta("Qual o numero da conta :"));
+        double valor = getDouble("Qual valor deseja sacar :");
+        contaCliente.setHistorico("-----\nSaldo inicial :" + contaCliente.getSaldo() + "\n " +
+                "Valor sacado : " + valor + "\nSaldo final" + (contaCliente.getSaldo() - valor) + "\n");
         contaCliente.sacar(valor);
         contaCliente.isSaldoNegativo(contaCliente.getSaldo());
 
@@ -121,11 +126,11 @@ public class BancoMain {
 
     private static void depositar() {
 
-        Conta contaCliete = contas.get(getInt("Qual o numero da conta : "));
+        Conta contaCliete = contas.get(getIndexConta("Qual o numero da conta : "));
         double valor = getDouble("Qual valor deseja depositar : ");
 
         contaCliete.setHistorico("-----\nSaldo inicial : " + contaCliete.getSaldo() + "\n " +
-                "valor depositado : " + valor + "\nsaldo final " + (contaCliete.getSaldo() + valor) + "\n");
+                "Valor depositado : " + valor + "\nSaldo final " + (contaCliete.getSaldo() + valor) + "\n");
 
         contaCliete.depositar(valor);
     }
@@ -138,7 +143,7 @@ public class BancoMain {
     }
 
     static void criarNovaConta(Cliente cliente) {
-        int op = getInt("1 - ligar na conta corrente \n2 - ligar na Criar conta poupança\n");
+        int op = getInt("Qual tipo de conta deseja criar :\n1 - Conta corrente \n2 -Conta poupança\n");
 
         if (op == 1) {
 
@@ -162,7 +167,6 @@ public class BancoMain {
             contas.add(cp);
             System.out.println(contas.get(cp.getNumeroConta()));
         }
-
 
 
     }
