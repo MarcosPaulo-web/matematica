@@ -10,9 +10,10 @@ public class ContaCorrente extends Conta {
             System.err.println("Conta está bloqueada");
             return;
         }
-        if (valor > 200) {
+
+        if (valor > 1000) {
             System.err.println("Valor acima do limite de crédito");
-        } else {
+        } else if ((getSaldo() - valor) >= -200) {
             double saldo = getSaldo();
             saldo -= valor;
             setSaldo(saldo);

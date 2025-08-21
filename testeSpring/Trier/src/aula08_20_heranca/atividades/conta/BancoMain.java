@@ -31,15 +31,15 @@ public class BancoMain {
                     transferirValor();
                     break;
                 case 5:
-                    conta = contas.get(getInt("Numero da conta : "));
+                    conta = contas.get(getIndexConta("numero da conta : "));
                     System.out.printf("Saldo da conta : %.2f", conta.getSaldo());
                     break;
                 case 6:
-                    conta = contas.get(getInt("Numero da conta : "));
+                    conta = contas.get(getIndexConta("numero da conta : "));
                     System.out.println("extrato da conta : " + conta.getHistorico());
                     break;
                 case 7:
-                    conta = contas.get(getInt("Numero da conta : "));
+                    conta = contas.get(getIndexConta("numero da conta : "));
                     System.out.println(conta);
                 case 8:
                     rendimento();
@@ -50,6 +50,22 @@ public class BancoMain {
             }
 
         } while (op != 0);
+    }
+
+    private static int getIndexConta(String txt){
+
+        boolean contaExist = false;
+      int totalConta=  contas.size();
+       int idConta;
+        do {
+             idConta = getInt(txt);
+          if (idConta <= totalConta && idConta>=0){
+              contaExist = true;
+          }else {
+              System.err.println("Esta conta não existe");
+          }
+       }while (!contaExist);
+        return idConta;
     }
 
     private static void saldoNegativo() {
@@ -71,8 +87,8 @@ public class BancoMain {
 
     private static void transferirValor() {
 
-        Conta remetente = contas.get(getInt("Qual o numero da conta do remetente: "));
-        Conta destinatario = contas.get(getInt("Qual o numero da conta do destinatario : "));
+        Conta remetente = contas.get(getIndexConta("Qual o numero da conta do remetente"));
+        Conta destinatario = contas.get(getIndexConta("Qual o numero da conta do destinatário"));
 
 
         double valorSacado = getDouble("Qual o valor que deseja sacar ? ");
@@ -123,6 +139,7 @@ public class BancoMain {
 
     static void criarNovaConta(Cliente cliente) {
         int op = getInt("1 - ligar na conta corrente \n2 - ligar na Criar conta poupança\n");
+
         if (op == 1) {
 
             ContaCorrente cc = new ContaCorrente();
@@ -130,7 +147,9 @@ public class BancoMain {
             cc.setSaldo(saldoInicial);
             cc.setStatusConta("Ativa");
             cc.setCliente(cliente);
+            cc.setTipoConta("Corrente");
             contas.add(cc);
+            System.out.println(contas.get(cc.getNumeroConta()));
         } else if (op == 2) {
             ContaPoupanca cp = new ContaPoupanca();
 
@@ -139,8 +158,12 @@ public class BancoMain {
             cp.setSaldo(saldoInicial);
             cp.setStatusConta("Ativa");
             cp.setCliente(cliente);
+            cp.setTipoConta("Poupança");
             contas.add(cp);
+            System.out.println(contas.get(cp.getNumeroConta()));
         }
+
+
 
     }
 

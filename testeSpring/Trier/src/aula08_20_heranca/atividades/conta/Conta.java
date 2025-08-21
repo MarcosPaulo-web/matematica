@@ -10,6 +10,7 @@ public class Conta {
     private String statusConta;
     private ArrayList<String> historico;
     private LocalDate dataSaldoNegativo;
+    private String tipoConta;
 
 
     public Conta(Cliente cliente, int numeroConta, double saldo, String statusConta) {
@@ -23,6 +24,14 @@ public class Conta {
         this.historico = new ArrayList<>();
         dataSaldoNegativo = null;
 
+    }
+
+    public String getTipoConta() {
+        return tipoConta;
+    }
+
+    public void setTipoConta(String tipoConta) {
+        this.tipoConta = tipoConta;
     }
 
     public Cliente getCliente() {
@@ -58,19 +67,21 @@ public class Conta {
     }
 
     void sacar(double valor) {
-        if (statusConta.equals("Bloqueada")){
+        if (statusConta.equals("Bloqueada")) {
             System.err.println("Conta está bloqueada");
             return;
         }
         if (valor <= 0) {
             System.err.println(" valor menor que zero");
-        } else {
+        } else if ((saldo - valor) >= -200) {
             saldo -= valor;
+        } else {
+            System.err.println("Saldo não alterado");
         }
     }
 
     void depositar(double valor) {
-        if (statusConta.equals("Bloqueada")){
+        if (statusConta.equals("Bloqueada")) {
             System.err.println("Conta está bloqueada");
             return;
         }
@@ -107,13 +118,12 @@ public class Conta {
 
     @Override
     public String toString() {
-        return "Conta{" +
-                "cliente=" + cliente +
-                ", numeroConta=" + numeroConta +
-                ", saldo=" + saldo +
-                ", statusConta='" + statusConta + '\'' +
-                ", historico=" + historico +
-                ",Data de atraso " + dataSaldoNegativo +
-                '}';
+        return  "\n" + cliente +
+                "\nnumero da conta = " + numeroConta +
+                "\nsaldo = " + saldo +
+                "\nstatus da conta = " + statusConta +
+                "\nhistorico = " + historico +
+                "\ndata saldo negativo = " + dataSaldoNegativo +
+                "\ntipo de conta = " + tipoConta ;
     }
 }
