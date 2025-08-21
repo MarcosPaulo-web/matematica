@@ -1,5 +1,6 @@
 package aula08_20_heranca.atividades.conta;
 
+import java.time.LocalDate;
 import java.util.ArrayList;
 
 public class Conta {
@@ -7,7 +8,9 @@ public class Conta {
     private int numeroConta;
     private double saldo;
     private String statusConta;
-    private  ArrayList<String> historico;
+    private ArrayList<String> historico;
+    private LocalDate dataSaldoNegativo;
+
 
     public Conta(Cliente cliente, int numeroConta, double saldo, String statusConta) {
         this.cliente = cliente;
@@ -17,6 +20,8 @@ public class Conta {
     }
 
     public Conta() {
+        this.historico = new ArrayList<>();
+        dataSaldoNegativo = null;
 
     }
 
@@ -52,24 +57,27 @@ public class Conta {
         this.saldo = saldo;
     }
 
-    void sacar(double valor){
-        if (valor <=0){
+    void sacar(double valor) {
+        if (statusConta.equals("Bloqueada")){
+            System.err.println("Conta está bloqueada");
+            return;
+        }
+        if (valor <= 0) {
             System.err.println(" valor menor que zero");
-        }else {
-            setHistorico("-----\nSaldo inicial : "+this.saldo+"\n " +
-                    "valor sacado : "+ valor +"\nsaldo final "+ (saldo - valor)+"\n");
-
+        } else {
             saldo -= valor;
         }
     }
 
-    void depositar(double valor){
-        if (valor >= 0){
-            setHistorico("-----\nSaldo inicial : "+this.saldo+"\n " +
-                    "valor depositado : "+ valor +"\nsaldo final "+ (saldo + valor)+"\n");
+    void depositar(double valor) {
+        if (statusConta.equals("Bloqueada")){
+            System.err.println("Conta está bloqueada");
+            return;
+        }
+        if (valor >= 0) {
             saldo += valor;
-            System.out.println("Valor depositado, novo saldo = "+this.saldo);
-        }else {
+            System.out.println("Valor depositado, novo saldo = " + this.saldo);
+        } else {
             System.err.println("Valor de deposito está abaixo de zero");
         }
     }
@@ -82,6 +90,21 @@ public class Conta {
         this.statusConta = statusConta;
     }
 
+    void isSaldoNegativo(double saldoMechido) {
+        if (saldoMechido < 0 && this.dataSaldoNegativo == null) {
+            this.dataSaldoNegativo = LocalDate.now();
+            System.out.println(dataSaldoNegativo);
+        }
+    }
+
+    void isMesAtrasado(LocalDate dataComparacao) {
+        System.out.println(saldo);
+        if ((dataComparacao.getMonthValue() - dataSaldoNegativo.getMonthValue()) != 0 && 0 > this.saldo) {
+            setStatusConta("Bloqueada");
+            System.out.printf("Conta %d do cliente %s Bloqueada", this.numeroConta, cliente.getNome());
+        }
+    }
+
     @Override
     public String toString() {
         return "Conta{" +
@@ -90,6 +113,7 @@ public class Conta {
                 ", saldo=" + saldo +
                 ", statusConta='" + statusConta + '\'' +
                 ", historico=" + historico +
+                ",Data de atraso " + dataSaldoNegativo +
                 '}';
     }
 }

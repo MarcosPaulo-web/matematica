@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d31f29a5-58d9-4b23-a4bd-26e7d70ac58d" name="Changes" comment="banco meio feito, indo para o teste de conta">
+    <list default="true" id="d31f29a5-58d9-4b23-a4bd-26e7d70ac58d" name="Changes" comment="teste da branch sendo feitos">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Trier/aula08_20_heranca/atividades/conta/BancoMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Trier/aula08_20_heranca/atividades/conta/BancoMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Trier/aula08_20_heranca/atividades/conta/Conta.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Trier/aula08_20_heranca/atividades/conta/Conta.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Trier/aula08_20_heranca/atividades/conta/ContaCorrente.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Trier/aula08_20_heranca/atividades/conta/ContaCorrente.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Trier/aula08_20_heranca/atividades/conta/ContaPoupanca.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Trier/aula08_20_heranca/atividades/conta/ContaPoupanca.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/aula08_20_heranca/atividades/conta/BancoMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aula08_20_heranca/atividades/conta/BancoMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/aula08_20_heranca/atividades/conta/Conta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aula08_20_heranca/atividades/conta/Conta.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/aula08_20_heranca/atividades/conta/ContaCorrente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aula08_20_heranca/atividades/conta/ContaCorrente.java" afterDir="false" />
@@ -79,6 +83,9 @@
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "Teste-para-array-unico",
     "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "editing.templates"
   }
 }]]></component>
@@ -115,13 +122,22 @@
       <option name="project" value="LOCAL" />
       <updated>1755719094441</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="teste da branch sendo feitos">
+      <option name="closed" value="true" />
+      <created>1755721330908</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1755721330908</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="algoritmo" />
     <MESSAGE value="POO da trier feita" />
     <MESSAGE value="banco meio feito, indo para o teste de conta" />
-    <option name="LAST_COMMIT_MESSAGE" value="banco meio feito, indo para o teste de conta" />
+    <MESSAGE value="teste da branch sendo feitos" />
+    <option name="LAST_COMMIT_MESSAGE" value="teste da branch sendo feitos" />
   </component>
 </project>
