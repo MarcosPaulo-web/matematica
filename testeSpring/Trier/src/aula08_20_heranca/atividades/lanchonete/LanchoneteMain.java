@@ -54,9 +54,7 @@ public class LanchoneteMain {
         } while (op != 0);
     }
 
-    private static void addToRelatorio(String txt) {
-        relatorio += txt;
-    }
+
 
     private static void retirarProdsEstoque() {
         for (Carrinho itemCarrinho : carrinho) {
@@ -69,6 +67,7 @@ public class LanchoneteMain {
         String itensQts = "";
         for (Carrinho itemCarrinho : carrinho) {
             System.out.println(itemCarrinho);
+            System.out.printf("Taxa do serviço : %.2f\n",(itemCarrinho.getProduto().getPreco() * itemCarrinho.getQtd())* 0.10 );
             valorFinal += itemCarrinho.qtd * itemCarrinho.produto.getPreco();
             itensQts += "\nItem : "+ itemCarrinho.getProduto().getNome()+"\nQuantidade : "+itemCarrinho.getQtd();
         }
@@ -76,8 +75,8 @@ public class LanchoneteMain {
         int comprar = 0;
         do {
 
-
-            comprar = getInt("Deseja cancelar a compra(1 = não, 2 = sim) ? ");
+            double taxaServico = valorFinal *0.10;
+            comprar = getInt("Deseja cancelar a compra(1 = não, 2 = sim) ? \n");
 
 
             if (comprar == 1) {
@@ -85,8 +84,10 @@ public class LanchoneteMain {
                 retirarProdsEstoque();
                 relatorio += "\nCliente " + contCliente + ":" + "" +
                         "\nitens : " + itensQts+
-                        "\nValor da compra : " + valorFinal + "\n====================\n";
-                valorFinalDia += valorFinal;
+                        "\nValor da compra : " + valorFinal + "" +
+                        "\nTaxa de servico: " + Math.round(taxaServico) +
+                        "\n====================\n";
+                valorFinalDia += valorFinal + taxaServico;
                 contCliente++;
                 return;
             } else if (comprar == 2) {
